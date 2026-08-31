@@ -35,7 +35,7 @@ async def get_issue(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
 async def get_request_date(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     context.user_data['request_date'] = update.message.text
-    reply_keyboard = [['ស្នើ់សុំផ្លូវការ', 'មិនទាន់ស្នើ់សុំផ្លូវការ']]
+    reply_keyboard = [['ស្នើសុំផ្លូវការ', 'មិនទាន់ស្នើសុំផ្លូវការ']]
     await update.message.reply_text(
         "សូមជ្រើសរើស **ស្ថានភាពលិខិតស្នើសុំជួសជុល**៖",
         reply_markup=ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=True, resize_keyboard=True),
