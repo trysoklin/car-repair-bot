@@ -7,7 +7,7 @@ from telegram.ext import (
 )
 
 # យក Link Web App ពី Environment Variable (ឬដាក់ Link ផ្ទាល់ត្រង់នេះ)
-GOOGLE_WEB_APP_URL = os.environ.get("GOOGLE_WEB_APP_URL", " 
+GOOGLE_WEB_APP_URL = os.environ.get("https://script.google.com/macros/s/xxxx/exec", " 
 https://script.google.com/macros/s/AKfycbxFb1ndQs3UL08TDp6sspXirQGk0fiVyYQeB7vWkvZTIuJbgz4itnlXK_NErngHWJkr/exec")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8054966766:AAF0dn2k09D3Lrp_sF0CgAXoUWIopE0SOwE")
 ADMIN_CHAT_ID = os.environ.get("ADMIN_CHAT_ID", "33459420")
